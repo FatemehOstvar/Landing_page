@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #1d1d4f;
+    color: azure;
+    padding: 20px 200px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+    gap: 24px;
+}
+
+.header ul a{
+
+    color: azure;
+  text-decoration: none;
+}
+.content-1{
+    display: flex;
+    justify-content: space-between;
+    background: #1d1d4f;
+    padding: 48px 200px;
+    /*font-weight: 900;*/
+}
+.content-1 img {
+    width: 400px;
+    height: 300px;
+
+}
+.content-1 .left{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    /*gap: 5px;*/
+}
+
+.content-1 .left button{
+    border-color: dodgerblue;
+    /*color: azure;*/
+    /*background: dodgerblue;*/
+    /*border-radius: 7px;*/
+    /*width: 140px;*/
+    /*height: 30px;*/
+    /*margin-top: 17px;*/
+}
+
+.figures{
+    display: flex;
+    gap: 14px;
+}
+/*wow*/
+.figures img {
+    padding: 12px;
+    width: 162px;
+    border-radius: 12px;
+    border: 4px solid dodgerblue;
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 43px;
+    margin-top: 50px;
+}
+/*.container{*/
+/*    background: white;*/
+/*}*/
+.content-4 {
+    display: flex;
+    margin: 100px 200px;
+    background: dodgerblue;
+    justify-content:space-evenly;
+    border-radius: 13px;
+    /*gap: 530px;*/
+}
+
+button{
+    margin: 50px 0;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 1px;
+    background: dodgerblue;
+    border-color: white;
+    color: white;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+}
+.content-4 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.content-3 {
+    background: lightgrey;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: italic;
+    font-size: 40px;
+    padding: 150px 400px 0 400px;
+
+    margin-top: 70px;
+}
+
+.content-3 footer{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 100px 40px 100px 0;
+}
+
+.footer{
+    background: #1d1d4f;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
